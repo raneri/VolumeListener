@@ -18,7 +18,7 @@
     // these 4 lines of code tell the system that "this app needs to play sound/music"
     MPMusicPlayerController *musicPlayer = [MPMusicPlayerController iPodMusicPlayer];
     systemVolume = musicPlayer.volume;
-    
+     
     NSString *myExamplePath = [[NSBundle mainBundle] pathForResource:@"silence" ofType:@"mp3"];
     AVAudioPlayer* p = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:myExamplePath] error:NULL];
     [[AVAudioSession sharedInstance] setCategory:AVAudioSessionCategoryAmbient error:nil];
