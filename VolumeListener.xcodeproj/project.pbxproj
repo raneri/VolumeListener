@@ -45,7 +45,7 @@
 		9C68677E1635E31200DA0756 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9C6867861635E36A00DA0756 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		9C6867891635E75000DA0756 /* silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence.mp3; sourceTree = "<group>"; };
-		9CE88DA81636062A001F6B1E /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		9CE88DA81636062A001F6B1E /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = VolumeListener/README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +67,10 @@
 		9C68673516355C3D00DA0756 = {
 			isa = PBXGroup;
 			children = (
-				9C6867861635E36A00DA0756 /* MediaPlayer.framework */,
-				9C68677E1635E31200DA0756 /* AVFoundation.framework */,
 				9C68674A16355C3D00DA0756 /* VolumeListener */,
 				9C68674316355C3D00DA0756 /* Frameworks */,
 				9C68674116355C3D00DA0756 /* Products */,
+				9CE88DA81636062A001F6B1E /* README */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,6 +85,8 @@
 		9C68674316355C3D00DA0756 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9C6867861635E36A00DA0756 /* MediaPlayer.framework */,
+				9C68677E1635E31200DA0756 /* AVFoundation.framework */,
 				9C68674416355C3D00DA0756 /* UIKit.framework */,
 				9C68674616355C3D00DA0756 /* Foundation.framework */,
 				9C68674816355C3D00DA0756 /* CoreGraphics.framework */,
@@ -104,7 +105,6 @@
 				9C68676216355C6E00DA0756 /* VLViewController.m */,
 				9C6867891635E75000DA0756 /* silence.mp3 */,
 				9C68674B16355C3D00DA0756 /* Supporting Files */,
-				9CE88DA81636062A001F6B1E /* README */,
 			);
 			path = VolumeListener;
 			sourceTree = "<group>";
