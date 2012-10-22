@@ -21,7 +21,6 @@
 		9C6867871635E36A00DA0756 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C6867861635E36A00DA0756 /* MediaPlayer.framework */; };
 		9C6867881635E38600DA0756 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C68677E1635E31200DA0756 /* AVFoundation.framework */; };
 		9C68678A1635E75000DA0756 /* silence.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C6867891635E75000DA0756 /* silence.mp3 */; };
-		9CE88DA91636062A001F6B1E /* README in Resources */ = {isa = PBXBuildFile; fileRef = 9CE88DA81636062A001F6B1E /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,7 +44,6 @@
 		9C68677E1635E31200DA0756 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9C6867861635E36A00DA0756 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		9C6867891635E75000DA0756 /* silence.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = silence.mp3; sourceTree = "<group>"; };
-		9CE88DA81636062A001F6B1E /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = VolumeListener/README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +65,6 @@
 		9C68673516355C3D00DA0756 = {
 			isa = PBXGroup;
 			children = (
-				9CE88DA81636062A001F6B1E /* README */,
 				9C68674A16355C3D00DA0756 /* VolumeListener */,
 				9C68674316355C3D00DA0756 /* Frameworks */,
 				9C68674116355C3D00DA0756 /* Products */,
@@ -179,7 +176,6 @@
 				9C68675916355C3D00DA0756 /* Default@2x.png in Resources */,
 				9C68675B16355C3D00DA0756 /* Default-568h@2x.png in Resources */,
 				9C68678A1635E75000DA0756 /* silence.mp3 in Resources */,
-				9CE88DA91636062A001F6B1E /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
