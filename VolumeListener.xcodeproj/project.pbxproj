@@ -67,10 +67,10 @@
 		9C68673516355C3D00DA0756 = {
 			isa = PBXGroup;
 			children = (
+				9CE88DA81636062A001F6B1E /* README */,
 				9C68674A16355C3D00DA0756 /* VolumeListener */,
 				9C68674316355C3D00DA0756 /* Frameworks */,
 				9C68674116355C3D00DA0756 /* Products */,
-				9CE88DA81636062A001F6B1E /* README */,
 			);
 			sourceTree = "<group>";
 		};
