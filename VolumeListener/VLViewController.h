@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  VLViewController.h
 //  VolumeListener
 //
 //  Created by Riccardo Raneri on 22/10/12.
@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "VLViewController.h"
+#import "VolumeListener.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface VLViewController : UIViewController{
+    VolumeListener *volumeListener;
+}
 
-@property (strong, nonatomic) UIWindow *window;
 
 @end
